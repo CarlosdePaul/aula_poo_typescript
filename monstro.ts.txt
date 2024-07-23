@@ -1,0 +1,24 @@
+ class Monstro {
+   public nome: string
+    forca: number 
+    nivel: number 
+      constructor(nome:string,forca:number){
+        this.nome=nome
+        this.forca=forca
+        this.nivel=10
+      }
+
+      Rugido(){
+        console.log("rugido")
+      }
+
+}
+
+   let monstro1= new Monstro("quetzal",200)
+   console.log(monstro1)
+
+
+   let monstro2= new Monstro("Brutu",100)
+   monstro2.nivel=1000
+   console.log( monstro2)
+   
