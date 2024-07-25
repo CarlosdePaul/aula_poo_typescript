@@ -1,0 +1,24 @@
+class Heroi extends Personagem{
+
+  comportamento:string
+
+      constructor(nome:string,forca:number,vida:number,comportamento:string){
+        super(nome,forca,vida)
+        this.comportamento = comportamento
+      }
+
+      olhar(){
+        console.log("olharDestemido")
+      }
+
+}
+
+   let heroi1= new Heroi("Perseu",100,300,"Agressivo")
+   console.log(heroi1)
+   
+
+
+   let heroi2= new Heroi("Seiya",250,1000,"Feroz")
+   heroi2.nivel=1000
+   console.log(heroi2)
+ 
