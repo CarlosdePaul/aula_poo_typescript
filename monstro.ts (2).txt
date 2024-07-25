@@ -1,0 +1,22 @@
+class Monstro extends Personagem{
+   
+    altura:number
+      constructor(nome:string,forca:number,vida:number,altura:number){
+        super(nome,forca,vida)
+        this.altura=altura
+      }
+
+      olharAssustador(){
+        console.log("olharAssustador")
+      }
+
+}
+
+   let monstro1= new Monstro("quetzal",200,100,200)
+   console.log(monstro1)
+    monstro.ataque()
+
+   let monstro2= new Monstro("Brutu",100,10,10)
+   monstro2.nivel=1000
+   console.log( monstro2)
+   
